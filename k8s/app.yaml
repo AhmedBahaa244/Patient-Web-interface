@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-patient
-        image: mohamedezzat1/iti-actions:3 
+        image: ahmedbahaaa/ahmed:${{ github.run_number }} 
         ports:
         - containerPort: 8000
 ---
